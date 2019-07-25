@@ -17,7 +17,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(cssd_msgs REQUIRED)
+
 
 rosidl_generate_interfaces(cssd_msgs
   "msg/DispenserRequestItem.msg"
